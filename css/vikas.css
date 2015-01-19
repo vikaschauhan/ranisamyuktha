@@ -1,0 +1,137 @@
+
+.box1
+{
+ 
+ animation:myanim 72s ease-in-out ,myanim2 72s ease-in-out infinite;  
+  -webkit-animation:myanim 72s ease-in-out,myanim2 72s ease-in-out infinite;
+  -moz-animation:myanim 72s ease-in-out ,myanim2 72s ease-in-out infinite;  
+
+}
+@keyframes myanim 
+{
+  0%{opacity:0;}
+  1%{opacity:0.5;}
+  50%{
+    opacity:0.5;
+   /* background:green;/*#EBF4FA;*/    
+  }  
+  95%{opacity:0;
+    }
+  100%{opacity:1;
+    }
+}
+
+@keyframes myanim2 
+{
+  0%{box-shadow:0px 0px 30px 0px #EBF4FA;
+  -webkit-transform:
+   rotate(360deg) translateY(20px)  translateX(-10px) translateZ(50px) scale(1) skew(0deg,0deg);
+  transform:
+   rotate(360deg) translateY(20px)  translateX(-10px) translateZ(50px) scale(1) skew(0deg,0deg);}
+  70%{box-shadow:0px 0px 0px 0px #EBF4FA;-webkit-transform:
+ rotate(720deg) translateY(20px)  translateX(0px) translateZ(50px) scale(1.4) skew(0deg,0deg);transform:
+ rotate(720deg) translateY(20px)  translateX(0px) translateZ(50px) scale(1.4) skew(0deg,0deg);}
+  100%{box-shadow:0px 0px 30px 0px #EBF4FA;
+  -webkit-transform:
+   rotate(360deg) translateY(20px)  translateX(-10px) translateZ(50px) scale(1) skew(0deg,0deg);
+  transform:
+   rotate(360deg) translateY(20px)  translateX(-10px) translateZ(50px) scale(1) skew(0deg,0deg);}
+}
+
+@-webkit-keyframes myanim 
+{
+  0%{opacity:0;}
+  1%{opacity:0.5;}
+  50%{
+    opacity:0.5;
+   /* background:green;/*#EBF4FA;*/    
+  }  
+  95%{opacity:0;
+    }
+  100%{opacity:1;
+    }
+}
+
+@-webkit-keyframes myanim2 
+{
+  0%{box-shadow:0px 0px 30px 0px #EBF4FA;
+  -webkit-transform:
+   rotate(360deg) translateY(20px)  translateX(-10px) translateZ(50px) scale(1) skew(0deg,0deg);}
+  70%{box-shadow:0px 0px 0px 0px #EBF4FA;-webkit-transform:
+   rotate(720deg) translateY(20px)  translateX(0px) translateZ(50px) scale(1.4) skew(0deg,0deg);}
+  100%{box-shadow:0px 0px 30px 0px #EBF4FA;
+  -webkit-transform:
+   rotate(360deg) translateY(20px)  translateX(-10px) translateZ(50px) scale(1) skew(0deg,0deg);}
+}
+
+#freedomfi
+{
+  position:absolute;
+  width:400px;
+  height:350px;
+  left:150px;
+ background:no-repeat;
+  background-position:center;
+  background-size:100% 100%;
+  opacity:0;
+  box-shadow:0px 0px 100px 40px gray,inset 0px 0px 100px 50px gray; 
+-webkit-animation:myanim3 82s ease-in-out; 
+animation:myanim3 82s ease-in-out;
+}
+@-webkit-keyframes myanim3
+{
+  0%{opacity:0;}
+  5%{opacity:0.4;background-image:url(http://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Subhas_Bose.jpg/220px-Subhas_Bose.jpg);}
+  10%{opacity:0;}
+  15%{opacity:1;background-image:url(http://besttoppers.com/wp-content/uploads/2011/08/mahatma-gandhi.jpg);}
+  20%{opacity:0;}
+  25%{opacity:1;background-image:url(http://www.thehindu.com/multimedia/dynamic/01223/30_bhagat_singh_1223190e.jpg);}
+  30%{opacity:0;}
+  35%{opacity:1;background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqN_ZK9wV7Fv0Ls-m9Ss4iH54RUNZXsmX8iJdQOP75LIduBWU56A);}
+  40%{opacity:0;}
+  45%{opacity:1;background-image:url(https://lh3.googleusercontent.com/-e17socQSVhI/TXvUUv4VPcI/AAAAAAAAADg/YJqDaiGGOlI/s1600/azad+1.jpg);}
+  50%{opacity:0;}
+  55%{opacity:1;background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX4nFCK80OwZZ_s95DTUlt6i9Lbm68tYTRmgo-evEU4S7SRydw);}
+  60%{opacity:0;}
+  65%{opacity:1;background-image:url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQazoP0IxrakGoee4hHQMHMYZySgkYHTPTl1bc0ZD0Pt0JArBEU);}
+  70%{opacity:0;}
+  75%{opacity:1;background-image:url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSHMvw_I1MvXl8uXxdtccRUhxsaTJncTfhMNGV9FiqVYYz7ojcqsA);}
+  80%{opacity:0;}
+  85%{opacity:1;background-image:url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQscY8irbvl5zw-F3pZgVY4dLgaH1qX-oBzDOwHIpblNANpV0Un);}
+  90%{opacity:0;}
+  95%{opacity:1;background-image:url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTjnkN_TBE76X1C-7X2P3xxcUbeUTZm79DoDPTkfO4zjI3ZuOsI);}
+100%{opacity:0;background-image:url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTjnkN_TBE76X1C-7X2P3xxcUbeUTZm79DoDPTkfO4zjI3ZuOsI);}
+}
+@keyframes myanim3
+{
+  0%{opacity:0;}
+  5%{opacity:0.4;background-image:url(http://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Subhas_Bose.jpg/220px-Subhas_Bose.jpg);}
+  10%{opacity:0;}
+  15%{opacity:1;background-image:url(http://besttoppers.com/wp-content/uploads/2011/08/mahatma-gandhi.jpg);}
+  20%{opacity:0;}
+  25%{opacity:1;background-image:url(http://www.thehindu.com/multimedia/dynamic/01223/30_bhagat_singh_1223190e.jpg);}
+  30%{opacity:0;}
+  35%{opacity:1;background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqN_ZK9wV7Fv0Ls-m9Ss4iH54RUNZXsmX8iJdQOP75LIduBWU56A);}
+  40%{opacity:0;}
+  45%{opacity:1;background-image:url(https://lh3.googleusercontent.com/-e17socQSVhI/TXvUUv4VPcI/AAAAAAAAADg/YJqDaiGGOlI/s1600/azad+1.jpg);}
+  50%{opacity:0;}
+  55%{opacity:1;background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX4nFCK80OwZZ_s95DTUlt6i9Lbm68tYTRmgo-evEU4S7SRydw);}
+  60%{opacity:0;}
+  65%{opacity:1;background-image:url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQazoP0IxrakGoee4hHQMHMYZySgkYHTPTl1bc0ZD0Pt0JArBEU);}
+  70%{opacity:0;}
+  75%{opacity:1;background-image:url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSHMvw_I1MvXl8uXxdtccRUhxsaTJncTfhMNGV9FiqVYYz7ojcqsA);}
+  80%{opacity:0;}
+  85%{opacity:1;background-image:url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQscY8irbvl5zw-F3pZgVY4dLgaH1qX-oBzDOwHIpblNANpV0Un);}
+  90%{opacity:0;}
+  95%{opacity:1;background-image:url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTjnkN_TBE76X1C-7X2P3xxcUbeUTZm79DoDPTkfO4zjI3ZuOsI);}
+100%{opacity:0;background-image:url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTjnkN_TBE76X1C-7X2P3xxcUbeUTZm79DoDPTkfO4zjI3ZuOsI);}
+}
+
+
+
+
+
+
+
+/*key result areas animation*/
+
